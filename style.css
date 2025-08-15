@@ -1,0 +1,61 @@
+/* mm = millimeters, metric unit of length, not commonly used in web */
+
+
+/* Global styles and reset the browser´s default margin size */
+html {
+    background-color: #ccc;
+    font-size: 15;
+    margin: 0;
+    font-family: "Poppins";
+}
+
+
+/* Main page container, margin: 0 auto is used to center the container */
+section {
+    margin: 0 auto;
+    background-color: white;
+    width: 300mm;
+    height: 300mm;
+    position: relative; /* sets the element as a reference point for absolutely positioned children */
+    align-content: center;
+}
+
+/* Main card structure */
+.card {
+    border: 1px solid black;
+    width: 150mm;
+    height: 90mm;
+    margin: 0 auto;
+    
+}
+
+/* The next rulesets are applied to the card´s text, they change the font size and set proper margin */
+.card h1 {
+    font-size: 35px;
+    margin-left: 4mm;
+    margin-bottom: 1mm;
+    margin-top: 6mm;
+}
+
+.card p {
+    font-size: 13px;
+    margin-left: 4mm;
+    margin-right: 4mm;
+}
+
+
+/* Action button styling */
+button {
+    
+    width: 40mm;
+    height: 15mm;
+    margin-left: 4mm;
+    margin-top: 2mm;
+    background-color: black;
+    color:  white;
+    border: 1px solid black;
+    border-radius: 2mm;
+    letter-spacing: 2px;
+    cursor: pointer; /* changes the the cursor to indicate that the element is clickable */
+    
+}
